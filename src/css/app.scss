@@ -1,0 +1,26 @@
+@import "reset.scss";
+
+@font-face {
+    font-family: "Lunchtype Regular";
+    src: url(fonts/lunchtype22-regular-webfont.woff2);
+  }
+
+body {
+    font-family: "Lunchtype Regular";
+    background-color: #eee;
+    color: #fff;
+    background-image: url(images/day-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section.intro {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        font-size: 40px;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+    }
+}
